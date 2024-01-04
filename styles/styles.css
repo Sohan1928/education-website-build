@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+ margin: 0;   
+ padding: 0;
+ font-family: 'Lato', sans-serif;;
+
+}
+#our{
+    text-align: center;
+    font-size: 40px;
+
+}
+.hero{
+    background-image:url(images/banner.png) ;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 1%, 100% 75%, 53% 100%, 0 82%);
+}
+.hero h1{
+    color:rgb(20, 223, 230);
+    font-size: 100px;
+    text-align: center;
+    font-weight: 700;
+    padding: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 40px;
+    letter-spacing: 20px;
+    padding-top: 60px;
+}
+.article{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    margin: 60px auto;
+    background-color: aqua;
+    padding: 60px;
+    border-width: 15px;
+    border-color: rgb(237, 237, 16);
+    border-style: solid;
+    border-radius: 40px;
+    background: linear-gradient(45deg, pink, rgb(80, 80, 210), rgb(193, 46, 46));
+
+}
+.article p{
+    font-size: 20px justify;
+    line-height: 2em;
+
+}
+.image h2{
+    text-align: center;
+    font-size: 40px; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: rgb(26, 223, 223);
+    padding: 20px;
+    /* border-bottom: 2px yellow ; */
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 15px;
+    /* border-width: 2px; */
+    /* padding-bottom: 5px; */
+    /* border-width: 10px; */
+    border-style: solid;
+
+}
+.campus-type{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
